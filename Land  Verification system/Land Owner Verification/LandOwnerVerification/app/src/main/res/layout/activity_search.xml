@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".searchActivity">
+
+
+    <Button
+        android:id="@+id/searchmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bgbtn"
+        android:text="SEARCH DATABASE"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchmain"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="id"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="name"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/location_memo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="location"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="upload"
+            android:text="UPLOAD"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/enterid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Type id"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/setText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="settext"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linearbro"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/ownersay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title deed owner" />
+
+            <TextView
+                android:id="@+id/owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="owner"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearbro1"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Land location" />
+
+            <TextView
+                android:id="@+id/land_location"
+                android:layout_width="wrap_content"
+                android:text="location"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/viewonmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:background="@drawable/bgbtn"
+            android:text="VIEW ON MAP"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:text="location_tr"
+            android:visibility="gone"
+            android:id="@+id/locationtr"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadadActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/ad_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Land location"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/ad_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Land Size i.e 20 acres"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/ad_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="E-mail"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/ad_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Land Price"
+                android:padding="10dp" />
+            <EditText
+                android:id="@+id/imgurl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="url"
+                android:padding="10dp" />
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btnChoose"
+                android:text="CHOOSE IMAGE"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bgbtn"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/upload_ad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bgbtn"
+                android:text="UPLOAD AD"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

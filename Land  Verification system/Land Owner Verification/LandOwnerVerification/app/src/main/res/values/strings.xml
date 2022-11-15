@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Land Verification System</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="google_maps_api">AIzaSyCq2EvtSCQffbV1g6Lcbwpmu0rzRVFJflc</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "936801502376",
+    "firebase_url": "https://land-verification-system-49890-default-rtdb.firebaseio.com",
+    "project_id": "land-verification-system-49890",
+    "storage_bucket": "land-verification-system-49890.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936801502376:android:011bad982838e87082ee9d",
+        "android_client_info": {
+          "package_name": "com.oyopizmanga.landownerverification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936801502376-jrhqeft2djujuss25d10601a1pt3v0nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGECyzRkMURj4dl6ppuD8vaT_XacTjh_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936801502376-jrhqeft2djujuss25d10601a1pt3v0nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
